@@ -1,0 +1,27 @@
+{
+  "name": "workflow-example",
+  "version": "1.0.0",
+  "description": "This is an example node project",
+  "keywords": [
+    "workflows",
+    "github"
+  ],
+  "homepage": "https://github.com/blitmap/workflow-example#readme",
+  "bugs": {
+    "url": "https://github.com/blitmap/workflow-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blitmap/workflow-example.git"
+  },
+  "license": "MIT",
+  "author": "blitmap",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
