@@ -1,6 +1,6 @@
-const http = require('http');         // Native HTTP module for making requests
-const { expect } = require('chai');   // Chai assertions
-const app = require('../index');      // Import the Express app (CommonJS syntax)
+import http from 'http';         // Native HTTP module for making requests
+import { expect } from 'chai';   // Chai assertions (now supports ESM)
+import app from '../index.js';    // Import the Express app (ensure the correct extension)
 
 describe('GET /', function() {
   let server; // Declare a variable to hold the server instance

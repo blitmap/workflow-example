@@ -1,5 +1,5 @@
 // Import express module
-const express = require('express');
+import express from 'express';
 
 // Create an instance of express
 const app = express();
@@ -18,10 +18,10 @@ app.get('/about', (req, res) => {
 });
 
 // Export the app so that it can be used in tests
-module.exports = app;
+export default app;
 
 // Start the server only if this file is run directly
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
   app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
   });

@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "author": "blitmap",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "mocha 'test/**/*.js'"
